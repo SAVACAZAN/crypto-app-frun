@@ -1,0 +1,12 @@
+// import {faucetDataSchema} from "~/server/models/faucetData.js";
+
+export default defineEventHandler(async (event) => {
+    const nitroApp = useNitroApp()
+    const data = await readBody(event)
+
+    let resp = await faucetDataSchema.claimFaucet(data.id);
+
+    return {
+        data: resp
+    }
+})

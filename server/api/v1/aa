@@ -1,0 +1,32 @@
+[ {
+    "_appname": {
+      "$appname": "BetCasinoCrypto"
+    
+  },
+
+  
+    "_id": {
+      "$oid": ""
+    }
+  },
+
+
+  {
+    "_BTCWallet": {
+      "$BTCAdress": "",
+      "$BTCKey": "",
+      "$BTCMnemo": "",
+      "$BTCBalance": ""
+    },
+    
+    "_ETHWallet": {
+
+      "$ETHAdress": "",
+      "$ETHKey": "",
+      "$ETHMnemo": "",
+      "$ETHBalance": ""
+    }
+
+    
+  }
+]
